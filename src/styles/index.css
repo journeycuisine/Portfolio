@@ -1,0 +1,12 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+/* Fix Figma export font issues */
+* {
+  font-family: 'Inter', 'Noto Sans', sans-serif;
+}
+
+[class*="Poppins"] {
+  font-family: 'Poppins', sans-serif;
+}
