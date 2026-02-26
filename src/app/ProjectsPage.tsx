@@ -6,7 +6,7 @@ import { ArrowLeft, ExternalLink, Sun, Moon, MessageSquare } from "lucide-react"
 import { ChatBot } from "./components/ChatBot";
 import { ImageWithFallback } from "./components/figma/ImageWithFallback";
 import imgGroceryApp from "figma:asset/b0b9d7a2240d26f23ecd5aaa2af48fca0e3f12d9.png";
-import imgGroceryMain from "figma:asset/54609b8492c2e2957dfd100c8917466610f34af2.png";
+import imgGroceryMain from "figma:asset/grocery.png";
 import imgComingSoon from "figma:asset/ade0a11749af58b0ff99f05c7bb8fbbdf575637f.png";
 import imgImage2 from "figma:asset/26d5b38b0f31e62d38471747f1aeb7e3b1617254.png";
 
