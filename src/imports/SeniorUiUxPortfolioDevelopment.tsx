@@ -11,22 +11,22 @@ import {
 import { ChatBot } from "../app/components/ChatBot";
 import { ImageWithFallback } from "../app/components/figma/ImageWithFallback";
 import svgPaths from "./svg-3o85r2hnv5";
-import imgImageMyPhoto from "figma:asset/9ede651664b44120ac58b28b4d459350aba6c4b4.png";
-import imgUntitled21 from "figma:asset/6da4a2ec343d6aa24b53c69a814d13ea93edbc85.png";
-import imgSearch31 from "figma:asset/c24f9d029a74b32ff0530dc2b7cc1673fd84448b.png";
-import imgUxDesign1 from "figma:asset/a5c697c99d446ed7cdfbd4511dfa30fb7aea2996.png";
-import imgCooperation1 from "figma:asset/91847cd7787406ae2cb9e65b78d77f8e14b45787.png";
-import imgFigma1 from "figma:asset/8ebdd5fda39d6f7dc5186a772dab05cb1f3d0576.png";
-import imgGroceryApp from "figma:asset/b0b9d7a2240d26f23ecd5aaa2af48fca0e3f12d9.png";
-import imgGroceryMain from "figma:asset/54609b8492c2e2957dfd100c8917466610f34af2.png";
-import imgComingSoon from "figma:asset/ade0a11749af58b0ff99f05c7bb8fbbdf575637f.png";
-import imgImage2 from "figma:asset/26d5b38b0f31e62d38471747f1aeb7e3b1617254.png";
+import imgImageMyPhoto from "https://images.unsplash.com/photo-1603252112050-5ee77b4b4fde?q=80&w=1080";
+import imgUntitled21 from "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1080";
+import imgSearch31 from "https://images.unsplash.com/photo-1553484771-047a44eee27b?q=80&w=1080";
+import imgUxDesign1 from "https://images.unsplash.com/photo-1586717791821-3f44a563eb4c?q=80&w=1080";
+import imgCooperation1 from "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1080";
+import imgFigma1 from "https://cdn-icons-png.flaticon.com/512/5968/5968705.png";
+import imgGroceryApp from "https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=1080";
+import imgGroceryMain from "https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=1080";
+import imgComingSoon from "https://images.unsplash.com/photo-1614332287897-cdc485fa562d?q=80&w=1080";
+import imgImage2 from "https://images.unsplash.com/photo-1614332287897-cdc485fa562d?q=80&w=1080";
 
 // Social Icons
-import iconLinkedIn from "figma:asset/e6122c29d641e79e333dc45537b42601ea705000.png";
-import iconEmail from "figma:asset/24bb08d8995c84428d17cccab720d3d6cd1fcd2b.png";
-import iconBehance from "figma:asset/e86fad423c9d694840c75f5520b0db31a1cddf36.png";
-import iconDribbble from "figma:asset/fd3fc4f117792d7a01e77bec4745ab53184ad7ba.png";
+const iconLinkedIn = "https://cdn-icons-png.flaticon.com/512/174/174857.png";
+const iconEmail = "https://cdn-icons-png.flaticon.com/512/732/732200.png";
+const iconBehance = "https://cdn-icons-png.flaticon.com/512/145/145801.png";
+const iconDribbble = "https://cdn-icons-png.flaticon.com/512/145/145802.png";
 
 export default function SeniorUiUxPortfolioDevelopment() {
   const navigate = useNavigate();

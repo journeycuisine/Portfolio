@@ -5,16 +5,16 @@ import { useState, useEffect } from "react";
 import { ArrowLeft, ExternalLink, Sun, Moon, MessageSquare } from "lucide-react";
 import { ChatBot } from "./components/ChatBot";
 import { ImageWithFallback } from "./components/figma/ImageWithFallback";
-import imgGroceryApp from "figma:asset/saas.png";
-import imgGroceryMain from "figma:asset/grocery.png";
-import imgComingSoon from "figma:asset/comingsoon.png";
-import imgImage2 from "figma:asset/star.png";
+import imgGroceryApp from "https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=1080";
+import imgGroceryMain from "https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=1080";
+import imgComingSoon from "https://images.unsplash.com/photo-1614332287897-cdc485fa562d?q=80&w=1080";
+import imgImage2 from "https://images.unsplash.com/photo-1614332287897-cdc485fa562d?q=80&w=1080";
 
-// Social Icons
-import iconLinkedIn from "figma:asset/linkedln.png";
-import iconEmail from "figma:asset/message.png";
-import iconBehance from "figma:asset/behance.png";
-import iconDribbble from "figma:asset/dribble.png";
+// Social Icons (using lucide icons in the component)
+const iconLinkedIn = "https://cdn-icons-png.flaticon.com/512/174/174857.png";
+const iconEmail = "https://cdn-icons-png.flaticon.com/512/732/732200.png";
+const iconBehance = "https://cdn-icons-png.flaticon.com/512/145/145801.png";
+const iconDribbble = "https://cdn-icons-png.flaticon.com/512/145/145802.png";
 
 const projects = [
   {
